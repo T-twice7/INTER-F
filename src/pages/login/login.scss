@@ -12,7 +12,7 @@ page-login {
             font-size: 80%;   
         }
         ion-icon{
-            font-size: 250%;
+            font-size: 200%;
         }
     }
     h1{
@@ -32,16 +32,28 @@ page-login {
             width: 100%;
             border-bottom: 1px solid rgba(129, 129, 128, 0.452);
             ion-item{
+                margin: 1px;
+                // border: 1px solid black;
+                ion-avatar{
+                    margin: 0%;
+                    padding: 0%;
+                }
                 background-color: transparent;
                  ion-label{
+                    margin: 0%;
+                    padding: 0%;
                     font-size: 70%;
                     color: white;
                     text-transform: uppercase;
                 }
                 ion-input{
+                    margin: 0%;
+                    padding: 0%;
                     color: white;
                 }
                 ion-icon.icon{
+                    margin: 0%;
+                    padding: 0%;
                     color: white;
                     background-color: transparent;  
                 }
@@ -60,17 +72,19 @@ page-login {
         // margin-top: 10%;
         margin: 10%;
         p{
-            // z-index: 10;
             font-size: 70%;
             text-align: center;
+            
             color: white;
-            //  margin-bottom: 30%;
             a{
                 text-decoration: none;
-                ion-icon{
-                    font-size: 350%;
-                    color: rgb(82, 77, 77);
-                    border-radius: 100%;
+               
+                img{
+                    margin: 5%;
+                    border-radius: 100px;
+                    height: 30px;
+                    width: 40px;
+                    box-shadow: 0 0 4px black;
                 }
             }
            
